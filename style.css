@@ -1,0 +1,25 @@
+body
+{
+    background-color: pink;
+}
+
+h3{
+    font-size: 25px !important;
+}
+
+.btn-warning:hover{
+    background-color: rgb(155, 4, 255);
+}
+
+canvas
+{
+    animation-name:First_animation;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes First_animation
+{
+ from{box-shadow:15px 15px 13px blue , -15px -15px 13px blue , -15px 15px 13px blue , 15px -15px 13px blue;}
+ to  {box-shadow:15px 15px 13px cyan , -15px -15px 13px cyan , -15px 15px 13px cyan , 15px -15px 13px cyan;}
+}
